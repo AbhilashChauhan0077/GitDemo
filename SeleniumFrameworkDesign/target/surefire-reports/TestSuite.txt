@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 40.444 s <<< FAILURE! - in TestSuite
+loginErrorValidation(rahulshettyacademy.tests.ErrorValidation)  Time elapsed: 1.152 s  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect emaillll or password.]
+	at rahulshettyacademy.tests.ErrorValidation.loginErrorValidation(ErrorValidation.java:36)
+
+submitOrder(rahulshettyacademy.tests.SubmitOrder)  Time elapsed: 1.534 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at rahulshettyacademy.tests.SubmitOrder.submitOrder(SubmitOrder.java:80)
+
+submitOrder(rahulshettyacademy.tests.SubmitOrder)  Time elapsed: 15.889 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at rahulshettyacademy.tests.SubmitOrder.submitOrder(SubmitOrder.java:80)
+
